@@ -36,6 +36,7 @@
          <property name="javax.persistence.sql-load-script-source" value="META-INF/sql/data.sql" />
          <property name="hibernate.hbm2ddl.import_files_sql_extractor" value="org.hibernate.tool.hbm2ddl.MultipleLinesSqlCommandExtractor" />
          
+         
          <property name="hibernate.show_sql" value="false" />
          <property name="hibernate.format_sql" value="true" />
       </properties>
