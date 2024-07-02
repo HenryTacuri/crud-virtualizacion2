@@ -62,7 +62,7 @@ public class GestionCarros {
 	
 	
 	private void enviarCorreo(String subject, String body) {
-        String apiEndpoint = "http://localhost:18080/correos/rs/sendEmail";
+        String apiEndpoint = "http://10.128.0.9:8080/correos/rs/sendEmail";
 
         String mensaje = "{\"subject\": \"" + subject + "\", \"body\": \"" + body + "\"}";
 
